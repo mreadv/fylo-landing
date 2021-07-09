@@ -88,8 +88,92 @@ textarea {
    ========================================================================== */
 
 
+/* ---------- General ---------- */
+
+.content-wrapper {
+  margin: 0 auto;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.container {
+  min-width: 375px;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1em;
+  font-family: 'Open sans', sans-serif;
+  color: #070439;
+  font-weight: 400;
+}
+
+h1,
+h2,
+li
+ { 
+   color: red;
+   font-family: 'Raleway', sans-serif;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #070439;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.125em;
+  line-height: 1.75em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+img {
+  max-width: 375px;
+}
+
+figure {
+  margin: 0;
+}
 
 
+
+/* -------- Base Header - Footer Styles ---------*/
+
+header,
+footer {
+  font-size: .875em;
+}
+
+header .content-wrapper {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
 
 
 
