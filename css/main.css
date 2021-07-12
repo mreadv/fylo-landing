@@ -266,22 +266,23 @@ header figure img {
 
 
 
-/* -------- Main - Section "description" ---------*/
+/* -------- Main - Section "details" ---------*/
 
 
-#description {
+#details {
   background: url('../img/bg-curve-mobile.svg') center no-repeat ;
   background-size: cover;
-  width: 100%;
 }
 
-#description .content-wrapper {
+#details .content-wrapper {
   width: 85%;
 }
 
-#description figure {
+#details figure {
   padding-top: 75px;
 }
+
+#details 
 
 
 
