@@ -255,6 +255,35 @@ header figure img {
   padding-left: 20px;
 }
 
+#hero .form .input-button {
+  background-color:	#3065f8;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* -------- Main - Section "description" ---------*/
+
+
+#description {
+  background: url('../img/bg-curve-mobile.svg') center no-repeat ;
+  background-size: cover;
+  width: 100%;
+}
+
+#description .content-wrapper {
+  width: 85%;
+}
+
+#description figure {
+  padding-top: 75px;
+}
+
+
 
 
 /* ==========================================================================
