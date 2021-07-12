@@ -166,13 +166,37 @@ figure {
 
 header,
 footer {
-  font-size: .875em;
+  font-size: 1em;
 }
 
 header .content-wrapper {
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
+}
+
+header nav {
+  min-width: 45%;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 300px;
+}
+
+header figure {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header figure img {
+  max-width: 75%;
+  display: flex;
 }
 
 
