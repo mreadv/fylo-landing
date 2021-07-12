@@ -234,6 +234,27 @@ header figure img {
   padding-top: 30px;
 }
 
+#hero .form {
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+}
+
+#hero .form input {
+  border-radius: 5px;
+  border: .5px solid #9d9d9d;
+  display: flex;
+  height: 60px;
+  width: 100%;
+}
+
+#hero .form .input-text {
+  color: #9d9d9d;
+  font-weight: 400;
+  margin-bottom: 25px;
+  padding-left: 20px;
+}
+
 
 
 /* ==========================================================================
